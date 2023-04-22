@@ -1,0 +1,29 @@
+1682153873983	geckodriver	INFO	Listening on 127.0.0.1:56357
+1682153874402	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "40741" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileaj3NnZ"
+
+(firefox:5070): Gtk-WARNING **: 12:27:59.440: Locale not supported by C library.
+	Using the fallback 'C' locale.
+/home/ethan/snap/code/common/.cache/gio-modules/libgiolibproxy.so: cannot open shared object file: Permission denied
+Failed to load module: /home/ethan/snap/code/common/.cache/gio-modules/libgiolibproxy.so
+
+(firefox:5070): Gtk-WARNING **: 12:28:00.865: Theme parsing error: gtk-keys.css:1:0: Failed to import: Error opening file /snap/code/126/usr/share/themes/Default/gtk-3.0/gtk-keys.css: Permission denied
+Gtk-Message: 12:28:00.866: Failed to load module "canberra-gtk-module"
+Gtk-Message: 12:28:00.958: Failed to load module "canberra-gtk-module"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1682153890813	Marionette	INFO	Marionette enabled
+1682153890846	Marionette	INFO	Listening on port 37715
+Read port: 37715
+Read port: 37715
+WebDriver BiDi listening on ws://127.0.0.1:40741
+Read port: 37715
+/home/ethan/snap/code/common/.cache/gio-modules/libdconfsettings.so: cannot open shared object file: Permission denied
+Failed to load module: /home/ethan/snap/code/common/.cache/gio-modules/libdconfsettings.so
+1682153896911	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.sys.mjs: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 762))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 414))
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileaj3NnZ/search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:40741/devtools/browser/607d1df7-d8d1-430d-a4d8-f89d81bf46cf
+1682153962900	Marionette	INFO	Stopped listening on port 37715
